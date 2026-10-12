@@ -1,0 +1,27 @@
+{
+  "name": "netwise",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI-powered retirement calculator: Monte Carlo projections plus personalized insights from Claude.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.133.0",
+    "next": "15",
+    "react": "19",
+    "react-dom": "19",
+    "recharts": "^2.15.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "typescript": "^5",
+    "vitest": "^3"
+  }
+}
